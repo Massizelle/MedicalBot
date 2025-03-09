@@ -1,0 +1,10 @@
+discord.py
+transformers
+torch
+pandas
+spacy
+elasticsearch
+chromadb
+fastapi
+pytest
+pytorch-lightning

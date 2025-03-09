@@ -1,0 +1,14 @@
+[
+    {
+        "question": "Qu'est-ce que la COVID-19?",
+        "answer": "La COVID-19 est une maladie infectieuse causée par le virus SARS-CoV-2. Elle a été identifiée pour la première fois en décembre 2019 en Chine et s'est rapidement propagée à l'échelle mondiale. Les symptômes incluent de la fièvre, de la toux et des difficultés respiratoires."
+    },
+    {
+        "question": "Quels sont les symptômes du diabète?",
+        "answer": "Les symptômes du diabète peuvent inclure une soif excessive, une faim accrue, une vision floue, une fatigue inhabituelle et des coupures qui guérissent lentement. Le diabète de type 1 et de type 2 peuvent provoquer des symptômes similaires."
+    },
+    {
+        "question": "Que faire en cas d'allergie alimentaire?",
+        "answer": "En cas d'allergie alimentaire, il est important d'éviter l'aliment déclencheur. Les symptômes d'une réaction allergique peuvent inclure des démangeaisons, des gonflements, des nausées, ou même des difficultés respiratoires. Un traitement d'urgence avec un antihistaminique ou un EpiPen peut être nécessaire."
+    }
+]
