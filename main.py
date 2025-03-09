@@ -1,14 +1,10 @@
 import discord
-from discord.ext import commands, tasks
-from discord import app_commands
+from discord.ext import commands
 import os
 from dotenv import load_dotenv
-import requests
-import json
-from datetime import datetime, timedelta
-import asyncio
 
 
+from answer_questions import answer_questions
 
 load_dotenv()
 
@@ -31,18 +27,19 @@ async def on_ready():
     await bot.tree.sync()
     
     
-    
-    
     # Commandes 
     
-@bot.hybrid_command(name="dire_coucou", description="Dit coucou", with_app_command=True)
-async def dire_coucou(ctx: commands.Context):
-    await ctx.send("Coucou ! 😊")
+# @bot.hybrid_command(name="dire_coucou", description="Dit coucou", with_app_command=True)
+# async def dire_coucou(ctx: commands.Context):
+#     await ctx.send("Coucou ! 😊")
+
     
-# @bot.hybrid_command(name="news", description="Récupère les dernières actualités crypto", with_app_command=True)
-# async def news(ctx: commands.Context):
-#     news_message = get_crypto_news()
-#     await ctx.send(news_message)
+@bot.hybrid_command(name="poser_une_question", description="Poser une question médicale au bot", with_app_command=True)
+async def answer(ctx: commands.Context, *, content: str):
+    await ctx.defer()  # This defers the interaction response, preventing a timeout
+
+    answer_message = answer_questions(content)
+    await ctx.send(answer_message)
 
 
 
