@@ -19,7 +19,7 @@ Ce bot Discord est conçu pour répondre aux questions médicales. Il utilise l'
 
 1. Clonez ce dépôt:
 
-git clone [URL_DU_DEPOT]
+git clone https://github.com/Massizelle/MedicalBot.git
 cd [NOM_DU_DOSSIER]
 
 
@@ -79,6 +79,3 @@ Pour modifier le comportement du bot, vous pouvez:
 
 Les contributions sont les bienvenues! N'hésitez pas à ouvrir une issue ou une pull request.
 
-## Licence
-
-[Insérez votre licence ici]
